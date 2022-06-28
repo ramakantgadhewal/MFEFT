@@ -12,7 +12,7 @@ runApplication blockMesh
 runApplication checkMesh
 runApplication setFields
 runApplication decomposePar
-runApplication $(pyFoamPlotRunner.py mpirun -oversubscribe -np 14 multiphaseEulerFoamT -parallel | tee log)
+runApplication $(pyFoamPlotRunner.py mpirun -np 4 multiphaseEulerFoamT -parallel | tee log)
 runApplication reconstructPar
 runApplication $(paraFoam)
 
