@@ -40,10 +40,11 @@ In summary:
 		
         ./runtests
 
-The available tutorial case used a proprietary database and it is open-source, if you get access to it, please re-write its address in:
-thermochimicaCoupling/thermochimicaCalc.H
+The available tutorial case used a proprietary database and it is NOT open-source, if you get access to it, please re-write its address in:
 
-		const char filename[120] = "/home/usename/Documents/JRCnoSUBM.dat";
+		thermochimicaCoupling/thermochimicaCalc.H
+
+		const char filename[120] = "/home/usename/Documents/JRCnoSUBM.dat";  //change this address
 		
 Updated frequently
 
