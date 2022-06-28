@@ -1,4 +1,4 @@
-# multiphaseEulerFoamThermochimica
+# multiphaseEulerFoam + Thermochimica
 
 This solver is numerical coupling between multiphaseEulerFoam v9 available here:
 https://github.com/OpenFOAM/OpenFOAM-9/tree/master/applications/solvers/multiphase/multiphaseEulerFoam/multiphaseEulerFoam
@@ -8,7 +8,7 @@ And the themochemical code Thermochimica, available here:
 
 https://github.com/ORNL-CEES/thermochimica
 
-This solver provides the bridge between computational fluid dynamic and computational thermodynamics to take under consideration chemical reaction for molten salts, and many other applications if programmed. This current solver is specifically designed for the Cs(l) + F2(g) reaction to produce solid particles of CsF(s). Which means, one liquid phase is being consumed injecting fluorine gas to produce cesium fluoride and will only work for the isothermal tutorial here available.
+This solver provides the bridge between computational fluid dynamics and computational thermodynamics to take under consideration chemical reaction for molten salts, and many other applications if programmed. This current solver is specifically designed for the Cs(l) + F2(g) reaction to produce solid particles of CsF(s). Which means, one liquid phase is being consumed injecting fluorine gas to produce cesium fluoride and will only work for the isothermal tutorial here available.
 
 Before cloning this code, I expect you have OF9 installed. 
 
@@ -47,11 +47,11 @@ The available tutorial case used a proprietary database and it is NOT open-sourc
 		const char filename[120] = "/home/usename/Documents/JRCnoSUBM.dat";  //change this address
 		
 
-
 solver command:
 
 		multiphaseEulerFoamT
 
-Updated frequently
+
+This is part of my PhD at Ontario Tech University, and will constantly be updated along the time.
 
 
