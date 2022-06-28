@@ -34,9 +34,9 @@
                 Info << "Solid TC  : " << CsF_Solids[i] << nl;
 
                     //Sometimes the very fist TC calculation return stores 0 values for all vectors,
-                    //random numbers are allocated to avoid calc error
+                    //random results from the reaction are allocated here to avoid calc error
                     //Can it be related to the random value a vector stores before get it used?
-                    //Do I need to use like F2_gas[i]{} or F2_gas[i]{0} to avoid id store junk value?
+                    //Do I need to use like F2_gas[i]{} or F2_gas[i]{0} to avoid it to store junk values?
                     if((F2_gas[i] == Cs_Liquid[i]) && (Cs_Liquid[i] == CsF_Solids[i]) && (CsF_Solids[i] == 0))
                     {
                         F2_gas[i] = 0;
