@@ -1,4 +1,4 @@
-# multiphaseEulerFoamT
+# multiphaseEulerFoamThermochimica
 
 This solved is numerical coupling between multiphaseEulerFoam v9 available here:
 https://github.com/OpenFOAM/OpenFOAM-9/tree/master/applications/solvers/multiphase/multiphaseEulerFoam/multiphaseEulerFoam
@@ -46,9 +46,12 @@ The available tutorial case used a proprietary database and it is NOT open-sourc
 
 		const char filename[120] = "/home/usename/Documents/JRCnoSUBM.dat";  //change this address
 		
+
+
+solver command:
+
+		multiphaseEulerFoamT
+
 Updated frequently
-
-
-
 
 
