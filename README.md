@@ -1,6 +1,6 @@
 # multiphaseEulerFoamThermochimica
 
-This solved is numerical coupling between multiphaseEulerFoam v9 available here:
+This solver is numerical coupling between multiphaseEulerFoam v9 available here:
 https://github.com/OpenFOAM/OpenFOAM-9/tree/master/applications/solvers/multiphase/multiphaseEulerFoam/multiphaseEulerFoam
 
 
