@@ -1,6 +1,6 @@
-//Calculate Phase Fractions ( && = and  ; || = or)
+//Routine to Update Phase Fractions in OpenFOAM using data from Thermochimica ( && = and  ; || = or)
 
-  forAll(phases, phasei) //for all phases being named from 1 to i(phasei)
+  forAll(phases, phasei) //for all phases being named from 0 to i(phasei)
   {
 
     phaseModel& phase = phases[phasei];
